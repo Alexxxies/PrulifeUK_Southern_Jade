@@ -1,0 +1,35 @@
+/* styles.css */
+.header-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=900&t=st=1693055776~exp=1693056376~hmac=9144ec73902c7c53aa56177376c59315d6ffb60f9eec4974553bb29b3cf0304b');
+  background-size: cover;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+}
+
+.button-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
